@@ -64,5 +64,12 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
+.skills {
+    width: fit-content;
+    background-color: #89ce94;
+    padding: 1px 10px;
+    border-radius: 5%;
+}
+
 
   
