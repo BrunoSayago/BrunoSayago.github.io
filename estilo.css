@@ -4,20 +4,51 @@
     box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
-  }
-
 body {
-    color: #325050;
-    background: #fff;
+    background-color: #191414;
+    color: #A3333D;
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 70%;
+}
+
+
+#fotoPerfil {
+    border-radius: 5%;
+    position: absolute;
+    
+}
+
+.indice h4 {
+    font-size: 1em;
+    padding-bottom: 0px;
+}
+
+.indice ol {
+    padding: 0px 0px 0px 1em;
+    font-size: 1em;
+}
+
+#Links {
+    font-size: 1em;
+}
+
+.linksUteis ul {
+    padding: 0px 0px 0px 1em;
+    font-size: 1em;
+}
+
+#statusAtual {
+    padding-left: 150px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    
+}
+
+#statusAtual p {
+    line-height: 50px;
 }
 
 a {
-    color: #0d8ba1;
+    color: #176087;
     -webkit-transition: all 0.25s ease-out;
     -moz-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
@@ -29,7 +60,9 @@ a:visited {
 }
 
 a:hover, a:focus {
-    color: #0599c2;
+    color: #89CE94;
     text-decoration: underline;
 }
 
+
+  
