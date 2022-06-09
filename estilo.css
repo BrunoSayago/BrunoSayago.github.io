@@ -75,6 +75,35 @@ strong {
     line-height: 3em;
 }
 
+
+#skills {
+    text-align: center;
+    border: 5px solid yellow;
+}
+
+.skill {
+    border: 5px solid blue;
+    max-width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2em;
+
+}
+
+.skill h3 {
+    margin-bottom: 1em;
+}
+
+.skill ul {
+    list-style: none;
+}
+
+.skill ul li {
+    line-height: 1.5em;
+    margin: 1em;
+}
+
+
 #Links {
     color: #fff;
     font-size: 1em;
