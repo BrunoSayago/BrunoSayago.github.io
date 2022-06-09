@@ -1,15 +1,12 @@
-* {
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-}
-
 body {
-    background-color: #191414;
-    color: #A3333D;
+    background-color: #202124;
+    color: #aaa;
     font-family: 'Libre Baskerville', sans-serif;
 }
 
+strong {
+    color: #fff;
+}
 
 #fotoPerfil {
     border-radius: 5%;
@@ -18,6 +15,7 @@ body {
 }
 
 .indice h4 {
+    color: #fff;
     font-size: 1em;
     padding-bottom: 0px;
 }
@@ -28,6 +26,7 @@ body {
 }
 
 #Links {
+    color: #fff;
     font-size: 1em;
 }
 
@@ -48,28 +47,18 @@ body {
 }
 
 a {
-    color: #176087;
+    color: #aaa;
     -webkit-transition: all 0.25s ease-out;
     -moz-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
     text-decoration: none;
 }
 
-a:visited {
-    color: #1a5952;
-}
-
 a:hover, a:focus {
-    color: #89CE94;
+    color: #fff;
     text-decoration: underline;
 }
 
-.skills {
-    width: fit-content;
-    background-color: #89ce94;
-    padding: 1px 10px;
-    border-radius: 5%;
-}
 
 
   
