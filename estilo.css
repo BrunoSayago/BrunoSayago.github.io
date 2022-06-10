@@ -13,20 +13,20 @@ body {
     text-align: center;
     background-color: rgb(75, 75, 75);
     border: 5px solid green;
-    width: 100%;
 }
 
 .blocobotao {
     margin: 0;
     display: inline-block;
-    width:33%;
-    padding: 2em 0;
+    width: 33%;
 }
 
 .botaoref {
+    display: inline-block;
+    vertical-align: auto;
+    width: 100%;
+    padding: 2em 0;
     margin: 0;
-    max-width: fit-content;
-    padding: 2em 39%;
     border-radius: 3%;
     border: 1px solid green;
 }
