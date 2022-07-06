@@ -15,6 +15,7 @@
             <h1 id="titulo">
                 Lições Aprendidas na Trybe- Bruno Sayago
             </h1>
+            <button onclick="abreTelaRequisitos()" style="position:fixed; top: 17px; right: 17px; max-width: 190px; font-family: inherit; border: 2px solid black; border-radius: 10px; cursor: pointer; background-color: rgb(253, 184, 51); font-weight: 500;" id="requisitos">Clique aqui para visualizar os Requisitos desse projeto</button>
             <nav id="navegacao">
                 <div class="botao">
                     <a class="botao-link" href="#primeira-parte">Aprendizado</a>
@@ -27,6 +28,56 @@
                 </div>
             </nav>
         </header>
+    </div>
+
+    <div id="tela-requisitos" style="display: none;">
+    # Requisitos do projeto <br><br>
+    ## 1. Adicione uma cor de fundo específica para a página <br>
+    A página deve possuir uma cor de fundo rgb(253, 251, 251) <br><br>
+
+    ## 2. Adicione uma barra superior com um título <br>
+    Essa barra superior deve possuir o id igual a cabecalho e deve ser fixa no topo da página com a propriedade top tendo 0. O título deve estar dentro da barra e ser um elemento h1 com id igual a titulo. <br> <br>
+    
+    ## 3. Adicione uma foto sua à página <br>
+    A foto deve ser inserida utilizando uma tag img com o ID minha_foto. <br><br>
+
+    ## 4. Adicione uma lista de lições aprendidas à página <br>
+    A lista deve possuir 10 itens, ser numerada e possuir o ID licoes_aprendidas. <br><br>
+    
+    ## 5. Crie uma lista de lições que ainda deseja aprender para a página <br>
+    A lista deve possuir 10 itens, não ser numerada e possuir o ID licoes_a_aprender. <br><br>
+
+    ## 6. Adicione um rodapé para a página <br>
+    O rodapé deve utilizar a tag footer e possuir o ID rodape. <br><br>
+
+    ## 7. Insira pelo menos um link externo na página <br>
+    A configuração desse link deve ser feita para abrir em uma nova aba do navegador. <br><br>
+
+    ## 8. Crie um artigo sobre o seu aprendizado <br>
+    O artigo deverá ser uma tag html article e deve possuir mais de 300 caracteres e menos de 600. <br><br>
+    
+    ## 9. Crie uma tag html aside que contenha uma breve descrição sobre você <br>
+    A tag aside deverá possuir mais de 100 caracteres e menos de 300. <br> <br>
+
+    ## 10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles <br>
+    Para tornar o seu site mais acessível e melhorar o seu ranqueamento em mecanismos de busca na Web, a sua página deve conter os seguintes elementos: article, header, aside e footer. <br><br>
+
+    ## 11. Teste se a semântica da sua página está aprovada pelo site CodeSniffer <br>
+    Teste se a semântica da sua página está aprovada pelo site CodeSniffer. <br><br>
+
+    Requisitos Bônus <br><br>
+    
+    ## 12. Adicione uma tabela à página <br>
+    A página deve possuir uma tabela <br><br>
+
+    ## 13. Utilize o Box model <br>
+    Altere margin, padding e border dos elementos para ver, na prática, como esses atributos influenciam e melhoram a visualização dos componentes. <br><br>
+
+    ## 14. Altere atributos relacionados às fontes <br>
+    Modifique o estilo da sua tipografia alterando o tamanho de letra, a cor, o espaçamento entre as linhas e a font-family. <br><br>
+
+    ## 15. Posicione a tag article e a tag aside uma ao lado do outra <br>
+    Adicione ao elemento posicionado no lado esquerdo a classe lado-esquerdo e ao elemento posicionado no lado direito a classe lado-direito.
     </div>
 
     <!-- Conteúdo Principal -->
@@ -201,5 +252,15 @@
         </div>
     </footer>
 
+    <script>
+        function abreTelaRequisitos() {
+            const telaRequisitos = document.getElementById('tela-requisitos');
+            if (telaRequisitos.style.display == 'none') {
+                telaRequisitos.style.display = 'block';
+            } else {
+                telaRequisitos.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
